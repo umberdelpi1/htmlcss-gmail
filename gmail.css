@@ -1,0 +1,91 @@
+
+* {
+  margin:auto;
+  box-sizing: border-box;
+}
+
+/* parte principale */
+
+.box {
+  width: 30%;
+}
+body {
+  background-image: url("./imgma/legno.jpg");
+
+}
+
+img {
+  width: 100px;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+
+
+header {
+  border-bottom: 2px solid white;
+}
+
+#space {
+  margin-top: 3px;
+  border-bottom: 2px solid white;
+  padding-bottom: 18px;
+  margin-bottom: 5px;
+}
+ #notifica {
+font-size: 30px;
+font-weight: 1000;
+margin-top: 20px;
+color:white;
+}
+
+#numeromail {
+  background-color: #eb9514;
+  text-align: center;
+  border-radius: 100%;
+  padding: 10px;
+  display: inline-block;
+  width: 55px;
+
+}
+
+.titolomail {
+  font-weight: bold;
+  padding: 10px;
+
+}
+
+.testomail {
+  color: rgb(88, 86, 86);
+}
+
+.mailaperta {
+  background-color: rgb(139, 139, 139);
+  border: 1px solid black;
+  padding: 3px;
+}
+.mailchiusa {
+  background-color: rgb(199, 195, 196);
+  border: 1px solid black;
+  padding: 3px;
+}
+
+footer {
+  border-top: 2px solid white;
+  padding-top: 5px;
+  margin-top: 5px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-size: 19px;
+}
+.sizefontfooter {
+  font-size: 13px;
+  font-weight: 400px;
+  font-style: italic;
+}
